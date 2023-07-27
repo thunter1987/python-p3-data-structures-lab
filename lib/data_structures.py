@@ -17,10 +17,17 @@ spicy_foods = [
 ]
 
 def get_names(spicy_foods):
-    pass
+    foods = []
+    for food in spicy_foods:
+        foods.append(food["name"])
+        
+    return foods
 
 def get_spiciest_foods(spicy_foods):
-    pass
+    for food in spicy_foods:
+        if food["heat_level"] > 5:
+            yield food
+            
 
 def print_spicy_foods(spicy_foods):
     pass
