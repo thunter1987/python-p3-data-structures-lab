@@ -1,3 +1,5 @@
 .pytest_cache
 .venv
 .python-version
+.vscode/launch.json
+.gitignore
